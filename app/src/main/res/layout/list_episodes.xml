@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/sand_transparent"
+    android:id="@+id/cardView_episodes"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp">
+    <TextView
+        android:id="@+id/textView_episodes_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/animex"
+        android:padding="8dp"
+        android:text="Text"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</androidx.cardview.widget.CardView>
